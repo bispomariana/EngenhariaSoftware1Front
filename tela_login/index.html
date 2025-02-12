@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="top" id="top1">
+        <img src="imgs/logopufba.png" alt="Logo UFBA">
+    </div>
+    <div class="top"></div>
+
+    <div class="container">
+        <div class="header">
+            <img src="imgs/sic_logo_login.png" alt="Logo SIC" class="logo">
+            <h1>Login</h1>
+        </div>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="matricula">N° Matrícula:</label>
+                <input type="text" id="matricula" required>
+            </div>
+            <div class="input-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required>
+            </div>
+            <a href="recuperar_senha.html" class="forgot-password">Esqueceu sua senha?</a>
+            <button type="submit">Entrar</button>
+            <p id="mensagemErro"></p>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
